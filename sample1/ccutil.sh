@@ -97,7 +97,7 @@ case $OPERATION in
         ;;
     "query")
             echo -n "Ledger is:"
-            peer chaincode query -C $CC_CHANNEL_ID -n $CC_NAME  -c '{"Args":["getAllAssets"]}'
+            peer chaincode query -C $CC_CHANNEL_ID -n $CC_NAME  -c '{"Args":["GetAllAssets"]}'
         ;;
     
     "invoke")
